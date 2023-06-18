@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- navbar start -->
+    <section>
+        <nav class="navbar sticky-top navbar-expand-lg py-2.5">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-2 navbar-logo" style="color: #af0171" href="#">
+                    <i class="fa-solid fa-circle-play"><span class="comapany-name"
+                            style="color: white">companyLogo</span></i>
+                </a>
+                <div class="collapse navbar-collapse d-none d-lg-block ms-lg-4" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto navbar-nav-scroll mb-2 mb-lg-0" style="--bs-scroll-height: 100px">
+                        <li class="nav-item">
+                            <a class="nav-link px-sm-2 mx-sm-3 mx-md-1" style="color: white"
+                                aria-current="page" href="./index.html">For You</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active border rounded-pill px-sm-2 mx-sm-3 mx-md-1" style="color: white" href="#">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-sm-2 mx-sm-3 mx-md-1" style="color: white" href="./free.html">Free</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-sm-2 mx-sm-3 mx-md-1" style="color: white" href="./original.html">Original</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex px-sm-2 mx-sm-3" role="search">
+                        <input class="form-control border rounded-pill me-2" type="search" placeholder="Search"
+                            aria-label="Search" />
+                    </form>
+                </div>
+                <button class="btn me-2" type="submit">
+                    <i class="fa-solid fa-magnifying-glass" style="color: white"></i>
+                </button>
+            </div>
+        </nav>
+        <!-- navbar end -->
+        <!-- main carousel start -->
+        <div id="carouselExampleIndicators" class="carousel carousel-container slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <div class="sliding-content d-flex flex-column">
+                        <h3 class="movie-title text-center align-self-center pt-5">
+                            WTC Final Ind vs Aus
+                        </h3>
+                        <a class="btn align-self-center carousel-button" href="#" role="button">Watch</a>
+                    </div>
+                    <img src="./images/indvsAucWtcPoster1.jpg" class="d-block c-img" alt="..." />
+                </div>
+                <div class="carousel-item c-item">
+                    <div class="sliding-content d-flex flex-column">
+                        <h3 class="movie-title text-center align-self-center pt-5">
+                            Novak Winning 23 grand
+                        </h3>
+
+                        <a class="btn align-self-center carousel-button" href="#" role="button">Watch</a>
+                    </div>
+                    <img src="./images/NovakDjokovicWinnig 23grand - Copy (2).jpg" class="d-block c-img" alt="..." />
+                </div>
+                <div class="carousel-item c-item">
+                    <div class="sliding-content d-flex flex-column">
+                        <h3 class="movie-title text-center align-self-center pt-5">
+                            Verstappen Won Monaco GP
+                        </h3>
+                        <a class="btn align-self-center carousel-button" href="#" role="button">Watch</a>
+                    </div>
+                    <img src="./images/maxVerstappenWonMonacoGP1.jpg" class="d-block c-img" alt="..." />
+                </div>
+                <button class="carousel-control-prev d-none d-lg-block" style="z-index: 9" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-none d-lg-block" style="z-index: 9" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- main carousel end -->
+    <!-- top trending movie slider start -->
+    <section class="sportList">
+        <h1 class="title">Sports</h1>
+        <div class="sports-list">
+            <div class="sports-card_container d-flex align-items-center">
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h5>Cricket</h5>
+                    </div>
+                    <img src="./images/cricket.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h5>Formula1</h5>
+                    </div>
+                    <img src="./images/formula1.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h5>Football</h5>
+                    </div>
+                    <img src="./images/football.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h5>Badminton</h5>
+                    </div>
+                    <img src="./images/badminto.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h5>Tennis</h5>
+                    </div>
+                    <img src="./images/tennis.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h5>Rugby</h5>
+                    </div>
+                    <img src="./images/rugby.jpg" class="card_img" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sportList">
+        <h1 class="title">Cricket</h1>
+        <div class="sports-list">
+            <div class="sports-card_container d-flex align-items-center">
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Gill's Wicket</h6>
+                    </div>
+                    <img src="./images/gill's wicket.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Ind VS Aus Highlight</h6>
+                    </div>
+                    <img src="./images/indvsauswtcHighlight.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Smith Hits Century</h6>
+                    </div>
+                    <img src="./images/steve-smith-century.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Kohli's Wicket</h6>
+                    </div>
+                    <img src="./images/virat-kohliDismissalInWTC.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Head's Century</h6>
+                    </div>
+                    <img src="./images/travis head century.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Gill's Wicket</h6>
+                    </div>
+                    <img src="./images/gill's wicket.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Ind VS Aus Highlight</h6>
+                    </div>
+                    <img src="./images/indvsauswtcHighlight.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Smith Hits Century</h6>
+                    </div>
+                    <img src="./images/steve-smith-century.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Kohli's Wicket</h6>
+                    </div>
+                    <img src="./images/virat-kohliDismissalInWTC.jpg" class="card_img" alt="" />
+                </div>
+                <div class="sport-cards">
+                    <div class="sport-card-content">
+                        <h6>Head's Century</h6>
+                    </div>
+                    <img src="./images/travis head century.jpg" class="card_img" alt="" />
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- top trending movie slider end -->
+    <!-- bottom navbar responsive start -->
+    <nav class="d-lg-none fixed-bottom mt-4 py-3" id="nav-bottom">
+        <div class="container-fluid">
+            <div class="nav-bottom">
+                <ul class="navbar-nav me-auto d-flex flex-row justify-content-evenly mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-column active px-sm-2 mx-sm-3 mx-md-1"
+                        style="color: rgb(207, 204, 204)" aria-current="page" href="./index.html"><span
+                                class="justify-content-center m-auto" ><i
+                                    class="fa-solid fa-house"></i></span><span class="justify-content-center">For
+                                You</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active d-flex flex-column px-sm-2 mx-sm-3 mx-md-1" style="color: white"
+                            href="./sports.html"><span class="justify-content-center m-auto" style="color: #af0171"><i
+                                    class="fa-solid fa-person-running"></i></span><span
+                                class="justify-content-center">Sports</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-column px-sm-2 mx-sm-3 mx-md-1" style="color: rgb(207, 204, 204)"
+                            href="./free.html"><span class="justify-content-center m-auto"><i
+                                    class="fa-solid fa-play"></i></span><span
+                                class="justify-content-center">Free</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex flex-column px-sm-2 mx-sm-3 mx-md-1" style="color: rgb(207, 204, 204)"
+                            href="./original.html"><span class="justify-content-center m-auto"><i
+                                    class="fa-solid fa-fire-flame-curved"></i></span><span
+                                class="justify-content-center">Original</span></a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex px-sm-2 mx-sm-3" role="search">
+                    <input class="form-control border rounded-pill me-2" type="search" placeholder="Search"
+                        aria-label="Search" />
+                    <button class="btn me-2" type="submit">
+                        <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+                    </button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <!-- bottom navbar responsive end -->
+    <!-- footer start here -->
+    <!-- <hr style="color: black;"> -->
+    <footer class="mt-0 py-4 mb-5 pb-5">
+        <div class="">
+            <div class="d-flex flex-column flex-lg-row justify-content-between">
+                <div class="d-flex justify-content-start px-4 mx-2">
+                    <div class="d-none d-lg-block py-4 mx-1 ps-4 px-3">
+                        <h4>Comapany Name</h4>
+                        <ul class="px-0">
+                            <li><a href="./index.html">For You</a></li>
+                            <li><a href="./sports.html">Sports</a></li>
+                            <li><a href="./free.html">Free</a></li>
+                            <li><a href="./original.html">Original</a></li>
+                        </ul>
+                    </div>
+                    <div class="py-4 mx-1 ps-5 px-3">
+                        <h4>Support</h4>
+                        <ul class="px-0">
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Containt Complaints</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row px-4 mx-2 justify-content-end" id="connetion">
+                    <div class="py-4 px-3 mx-1 pe-5">
+                        <h3>Connect with Us</h3>
+                        <ul
+                            class="d-flex justify-content-sm-evenly justify-content-md-evenly justify-content-between pt-3 px-0">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mx-1 py-4 px-3">
+                        <h3>Download the App</h3>
+                        <ul
+                            class="d-flex justify-content-md-evenly justify-content-sm-evenly justify-content-around px-0 pt-3">
+                            <li>
+                                <a href="#"><img style="width: 100px" src="./images/Get-It-On-Google-Play-Logo-PNG.png"
+                                        alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img style="width: 100px" src="./images/Get-it-on-apple-store.png"
+                                        alt="" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end here -->
+</body>
+
+</html>
